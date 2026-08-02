@@ -38,7 +38,8 @@ from step6_plotting import plot_payload_vs_endurance, plot_speed_vs_endurance
 # la grafica de velocidad a otro payload distinto de 500 g.
 CRUISE_SPEED_FOR_PAYLOAD_CHART_KMH = 60.0
 FIXED_PAYLOAD_FOR_SPEED_CHART_G = 500.0
-OUTPUT_DIR = "output"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
 
 def main():
