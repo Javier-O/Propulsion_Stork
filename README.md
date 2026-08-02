@@ -1,7 +1,6 @@
 # Stork VTOL — Calculadora de rendimiento
 
-Código en Python que replica los cálculos de autonomía, alcance y presupuesto
-de masa desarrollados en el chat, organizado en pasos cronológicos.
+Código en Python que realiza los cálculos de autonomía, alcance y masa
 
 ## Por qué varios archivos y no uno solo
 
